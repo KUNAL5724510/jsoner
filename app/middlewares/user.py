@@ -14,7 +14,7 @@ class UsersMiddleware(BaseMiddleware):
         session = data["session"]
         user, is_create = await User.get_or_create(
             session,
-            user_id=message.from_user.id,
+            id=message.from_user.id,
             username=message.from_user.username,
             language=message.from_user.language_code,
         )
