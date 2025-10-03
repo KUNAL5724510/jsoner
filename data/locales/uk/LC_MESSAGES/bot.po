@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-09-08 12:11+0300\n"
-"PO-Revision-Date: 2025-09-08 12:11+0300\n"
+"POT-Creation-Date: 2025-10-03 19:39+0300\n"
+"PO-Revision-Date: 2025-10-03 19:40+0300\n"
 "Last-Translator: \n"
 "Language-Team: uk <LL@li.org>\n"
 "Language: uk\n"
@@ -28,25 +28,25 @@ msgid "change language"
 msgstr "змінити мову"
 
 #: app/commands.py:10
-msgid "bot description"
-msgstr "опис бота"
-
-#: app/commands.py:11
 msgid "referal system"
 msgstr "реферальна система"
 
-#: app/commands.py:21 app/commands.py:22
+#: app/commands.py:20 app/commands.py:21
 msgid "admin panel"
 msgstr "адмін панель"
 
 #: app/text.py:7
 #, python-brace-format
-msgid "👋, <a href='tg://user?id={}'>{}</a>"
-msgstr "👋, <a href='tg://user?id={}'>{}</a>"
-
-#: app/text.py:11
-msgid "Bot Info:"
-msgstr "Інформація про бота:"
+msgid ""
+"\n"
+"👋, <a href='tg://user?id={}'>{}</a>\n"
+"\n"
+"Write or send messages for which you want to receive json ;)\n"
+msgstr ""
+"\n"
+"👋, <a href='tg://user?id={}'>{}</a>\n"
+"\n"
+"Напишіть або надішліть повідомлення, для яких ви хочете отримати json ;)\n"
 
 #: app/text.py:15
 #, python-brace-format
@@ -77,6 +77,14 @@ msgstr "Ви адміністратор!"
 msgid "Logs sending..."
 msgstr "Відправлення журналів..."
 
-#: app/text.py:35
-msgid "Unknown command. If you are lost, type /start."
-msgstr "Невідома команда. Якщо ви загубилися, введіть /start."
+#~ msgid "👋, <a href='tg://user?id={}'>{}</a>"
+#~ msgstr "👋, <a href='tg://user?id={}'>{}</a>"
+
+#~ msgid "bot description"
+#~ msgstr "опис бота"
+
+#~ msgid "Bot Info:"
+#~ msgstr "Інформація про бота:"
+
+#~ msgid "Unknown command. If you are lost, type /start."
+#~ msgstr "Невідома команда. Якщо ви загубилися, введіть /start."

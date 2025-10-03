@@ -11,10 +11,6 @@ Write or send messages for which you want to receive json ;)
 """)
 
     @property
-    def INFO(self):
-        return _("Bot Info:")
-
-    @property
     def INVITE_FRIENDS(self):
         return _("Invited users: <b>{}</b>\n\nLink for friends:\n<code>{}</code>")
 
@@ -33,10 +29,6 @@ Write or send messages for which you want to receive json ;)
     @property
     def LOG_SENDING(self):
         return _("Logs sending...")
-
-    @property
-    def UNKNOWN_COMMAND(self):
-        return _("Unknown command. If you are lost, type /start.")
 
 
 message_text = MessageText()

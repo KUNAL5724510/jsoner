@@ -1,37 +1,40 @@
-# Translations template for bot.
+# Polish translations for bot.
 # Copyright (C) 2025 ORGANIZATION
 # This file is distributed under the same license as the bot project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: bot VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-10-03 19:39+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2025-10-03 19:40+0300\n"
+"Last-Translator: \n"
+"Language-Team: pl <LL@li.org>\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
 "Generated-By: Babel 2.17.0\n"
+"X-Generator: Poedit 3.5\n"
 
 #: app/commands.py:8
 msgid "start chat"
-msgstr ""
+msgstr "rozpocząć czat"
 
 #: app/commands.py:9
 msgid "change language"
-msgstr ""
+msgstr "zmień język"
 
 #: app/commands.py:10
 msgid "referal system"
-msgstr ""
+msgstr "system referencyjny"
 
 #: app/commands.py:20 app/commands.py:21
 msgid "admin panel"
-msgstr ""
+msgstr "panel administracyjny"
 
 #: app/text.py:7
 #, python-brace-format
@@ -41,6 +44,10 @@ msgid ""
 "\n"
 "Write or send messages for which you want to receive json ;)\n"
 msgstr ""
+"\n"
+"👋, <a href='tg://user?id={}'>{}</a>\n"
+"\n"
+"Napisz lub wyślij wiadomości, dla których chcesz otrzymać json ;)\n"
 
 #: app/text.py:15
 #, python-brace-format
@@ -50,20 +57,23 @@ msgid ""
 "Link for friends:\n"
 "<code>{}</code>"
 msgstr ""
+"Zaproszeni użytkownicy: <b>{}</b>\n"
+"\n"
+"Link dla znajomych:\n"
+"<code>{}</code>"
 
 #: app/text.py:19
 msgid "Select the language you want to switch to: 🌐"
-msgstr ""
+msgstr "Wybierz język, na który chcesz się przełączyć: 🌐"
 
 #: app/text.py:23
 msgid "Your language has been successfully changed! ✅"
-msgstr ""
+msgstr "Język został pomyślnie zmieniony! ✅"
 
 #: app/text.py:27
 msgid "You're the administrator!"
-msgstr ""
+msgstr "Jesteś administratorem!"
 
 #: app/text.py:31
 msgid "Logs sending..."
-msgstr ""
-
+msgstr "Dzienniki wysyłania..."

@@ -14,5 +14,5 @@ IF "%1"=="run" (
     uv run pybabel compile -d data/locales -D bot --statistics
 ) ELSE (
     echo !Unknown command
-    echo "Available commands: run, mapply, mgen, lcollect, lupdate, lcompile"
+    echo "Available commands: run, mapp, mgen, lcoll, lupd, lcom"
 )

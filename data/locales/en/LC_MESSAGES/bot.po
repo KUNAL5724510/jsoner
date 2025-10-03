@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-09-08 12:11+0300\n"
+"POT-Creation-Date: 2025-10-03 19:39+0300\n"
 "PO-Revision-Date: 2024-09-07 14:40+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -27,24 +27,20 @@ msgid "change language"
 msgstr ""
 
 #: app/commands.py:10
-msgid "bot description"
-msgstr ""
-
-#: app/commands.py:11
 msgid "referal system"
 msgstr ""
 
-#: app/commands.py:21 app/commands.py:22
+#: app/commands.py:20 app/commands.py:21
 msgid "admin panel"
 msgstr ""
 
 #: app/text.py:7
 #, python-brace-format
-msgid "👋, <a href='tg://user?id={}'>{}</a>"
-msgstr ""
-
-#: app/text.py:11
-msgid "Bot Info:"
+msgid ""
+"\n"
+"👋, <a href='tg://user?id={}'>{}</a>\n"
+"\n"
+"Write or send messages for which you want to receive json ;)\n"
 msgstr ""
 
 #: app/text.py:15
@@ -72,14 +68,22 @@ msgstr ""
 msgid "Logs sending..."
 msgstr ""
 
-#: app/text.py:35
-msgid "Unknown command. If you are lost, type /start."
-msgstr ""
-
 #~ msgid ""
 #~ "Invited users: <b>{}</b>\n"
 #~ "\n"
 #~ "Link for friends:\n"
 #~ "<code>https://t.me/{}?start={}</code>"
+#~ msgstr ""
+
+#~ msgid "👋, <a href='tg://user?id={}'>{}</a>"
+#~ msgstr ""
+
+#~ msgid "bot description"
+#~ msgstr ""
+
+#~ msgid "Bot Info:"
+#~ msgstr ""
+
+#~ msgid "Unknown command. If you are lost, type /start."
 #~ msgstr ""
 

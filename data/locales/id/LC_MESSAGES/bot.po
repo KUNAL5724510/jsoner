@@ -1,37 +1,39 @@
-# Translations template for bot.
+# Indonesian translations for bot.
 # Copyright (C) 2025 ORGANIZATION
 # This file is distributed under the same license as the bot project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: bot VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-10-03 19:39+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2025-10-03 19:42+0300\n"
+"Last-Translator: \n"
+"Language-Team: id <LL@li.org>\n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.17.0\n"
+"X-Generator: Poedit 3.5\n"
 
 #: app/commands.py:8
 msgid "start chat"
-msgstr ""
+msgstr "mulai mengobrol"
 
 #: app/commands.py:9
 msgid "change language"
-msgstr ""
+msgstr "ganti bahasa"
 
 #: app/commands.py:10
 msgid "referal system"
-msgstr ""
+msgstr "sistem rujukan"
 
 #: app/commands.py:20 app/commands.py:21
 msgid "admin panel"
-msgstr ""
+msgstr "panel admin"
 
 #: app/text.py:7
 #, python-brace-format
@@ -41,6 +43,10 @@ msgid ""
 "\n"
 "Write or send messages for which you want to receive json ;)\n"
 msgstr ""
+"\n"
+"👋, <a href='tg://user?id={}'>{}</a>\n"
+"\n"
+"Menulis atau mengirim pesan yang ingin Anda terima dalam bentuk json;)\n"
 
 #: app/text.py:15
 #, python-brace-format
@@ -50,20 +56,23 @@ msgid ""
 "Link for friends:\n"
 "<code>{}</code>"
 msgstr ""
+"Pengguna yang diundang: <b>{}</b>\n"
+"\n"
+"Tautan untuk teman:\n"
+"<code>{}</code>"
 
 #: app/text.py:19
 msgid "Select the language you want to switch to: 🌐"
-msgstr ""
+msgstr "Pilih bahasa yang ingin Anda alihkan: 🌐"
 
 #: app/text.py:23
 msgid "Your language has been successfully changed! ✅"
-msgstr ""
+msgstr "Bahasa Anda telah berhasil diubah! ✅"
 
 #: app/text.py:27
 msgid "You're the administrator!"
-msgstr ""
+msgstr "Anda adalah administrator!"
 
 #: app/text.py:31
 msgid "Logs sending..."
-msgstr ""
-
+msgstr "Pengiriman log..."

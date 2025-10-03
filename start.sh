@@ -21,6 +21,6 @@ case "$1" in
         ;;
     *)
         echo "Unknown command: $1"
-        echo "Available commands: run, mapply, mgen, lcollect, lupdate, lcompile"
+        echo "Available commands: run, mapp, mgen, lcoll, lupd, lcom"
         ;;
 esac
