@@ -3,10 +3,10 @@ import json
 from aiogram import F, types
 from aiogram.filters.state import StateFilter
 
-from app.routers import voide_router
+from app.routers import user_router
 
 
-@voide_router.message(StateFilter("*"), F.text)
+@user_router.message(StateFilter("*"), F.text)
 async def profile_command(message: types.Message) -> None:
     """Отвечает пользователю если никакие фильтры не сработали,
     тобиж на не известные команды"""
@@ -98,9 +98,3 @@ async def profile_command(message: types.Message) -> None:
         await message.answer(
             f"Message ID: {message.message_id}\nFrom: {message.from_user.id if message.from_user else 'N/A'}\nText: {message.text}"
         )
-
-    # Полные данные в консоль
-    print("=== TELEGRAM UPDATE FORMAT ===")
-    print(json.dumps(clean_data, indent=2, ensure_ascii=False, default=str))
-    print("=== FULL AIOGRAM DATA ===")
-    print(json.dumps(full_message_data, indent=2, ensure_ascii=False, default=str))

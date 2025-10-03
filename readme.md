@@ -1,4 +1,8 @@
-# Aiogram sqlalchemy template
+<p align="center">
+  <img src="./images/rounded_logo.png" alt="logo" width="200">
+</p>
+
+# Jsoner
 
 - `Aiogram 3`
 - `i18n`
@@ -14,7 +18,7 @@
 First, clone the repository and navigate to its directory:
 
 ```bash
-git clone https://github.com/devvsima/aiogram-sqlalchemy-template.git
+git clone https://github.com/devvsima/jsoner.git
 cd tgbot
 ```
 

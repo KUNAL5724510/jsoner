@@ -4,7 +4,11 @@ from loader import _
 class MessageText:
     @property
     def WELCOME(self):
-        return _("👋, <a href='tg://user?id={}'>{}</a>")
+        return _("""
+👋, <a href='tg://user?id={}'>{}</a>
+
+Write or send messages for which you want to receive json ;)
+""")
 
     @property
     def INFO(self):
